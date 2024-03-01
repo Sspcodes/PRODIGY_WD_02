@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container{
+  text-align: center;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    
+}
+    .stopwatch {
+      text-align: center;
+      background-color: white;
+      padding: 20px 0;
+      
+    }
+    
+
+
+.display {
+  width: 100%;
+    background: paleturquoise;
+    padding: 20px 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    border-radius: 10px 10px 0 0;
+}
+h1{
+  text-align: center;
+  color:red;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+color:black;
+background-color: blueviolet;
+
+}
+
+.laps {
+  margin-top: 20px;
+  text-align: center;
+  color:rgb(30, 195, 104);
+}
